@@ -3,6 +3,7 @@ import Counter from './Counter';
 import CounterReducer from './CounterReducer';
 import Greetings from './Greetings';
 import MyForm from './MyForm';
+import ReducerSample from './ReducerSample';
 
 const App = () => {
   const onClick = (name:string) => {
@@ -19,6 +20,7 @@ const App = () => {
       <Counter count={count} setCount={setCount} />
       <MyForm onSubmit={onSubmit} />
       <CounterReducer />
+      <ReducerSample />
     </>
   );
 }
